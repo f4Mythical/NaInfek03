@@ -1,0 +1,109 @@
+.tryb {
+    font-size: 140%;
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.tryb.aktywne {
+    text-decoration: none;
+    color: #f5a623;
+}
+
+nav {
+    font-size: 150%;
+}
+
+.arkusz {
+    display: none;
+}
+
+aside {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#opcje {
+    display: flex;
+}
+
+.opcje {
+    cursor: pointer;
+    padding: 8px 18px;
+    border: 1px solid #2a2208;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    background: #0c0b06;
+    color: #5e5020;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: -1px;
+    position: relative;
+    top: 1px;
+}
+
+.opcje.aktywne {
+    background: #111008;
+    color: #f0d060;
+    border-color: #e8b820;
+    z-index: 2;
+}
+
+.panelTresci {
+    flex: 1;
+    border: 1px solid #2a2208;
+    border-radius: 0 8px 8px 8px;
+    background: #111008;
+    padding: 16px;
+}
+
+#podgladBox,
+#arkuszBox {
+    height: 100%;
+}
+
+.main-layout {
+    display: flex;
+}
+
+#kod {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.kodBlok {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.poleKodu {
+    display: none;
+    width: 100%;
+    height: 220px;
+    background: #0c0b06;
+    color: #b8aa78;
+    border: 1px solid #272210;
+    border-radius: 8px;
+    padding: 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.poleKodu.aktywne {
+    display: block;
+}
+
+.nazwaPliku {
+    text-align: center;
+    font-size: 12px;
+    color: #5e5020;
+    font-family: 'Courier New', monospace;
+}

@@ -92,7 +92,7 @@ aside {
     background: #111008;
     border-right: 1px solid #272210;
     padding: 28px 18px;
-    height: 700px;
+    height: 850px;
     overflow-y: auto;
 }
 
@@ -175,7 +175,7 @@ aside {
 #arkusze {
     margin-left: 210px;
     padding: 36px 40px;
-    height: 700px;
+    height: 850px;
     overflow-y: auto;
 }
 
@@ -189,8 +189,8 @@ footer {
     clear: both;
     background: #111008;
     border-top: 1px solid #272210;
-    padding: 16px 40px;
-    font-size: 12px;
+    padding: 3px 40px;
+    font-size: 10px;
     color: #3e3618;
 }
 
